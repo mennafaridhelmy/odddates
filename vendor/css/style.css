@@ -1,0 +1,625 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* //////////             navbar header             ///////// */
+
+.navbar-brand{
+  padding: 8px 8px;
+}
+
+.datelogo{
+  height: 55px;
+  width: 80px;
+}
+
+#collapselines{
+  border: 1px solid black;
+  margin-top:15px;
+}
+
+#collapselines>span{
+  background-color: black;
+}
+
+/* ////////////    navbar content       //////////// */
+
+.navigationbar{
+  position: relative;
+  top: 0px;
+  border-top:5px solid #ebc8ac;
+  border-bottom: 0.5px solid black;
+  border-radius: 0px;
+  background-color: white;
+  height: 80px;
+  z-index: 1;
+}
+
+.navbar-nav>li{
+  position: relative;
+  top: 0px;
+  background-color: white;
+}
+
+.navbar-nav>li>a{
+  border: 2px solid white;
+  color: black;
+  font-size: large;
+  font-weight: 500;
+  margin: 5px 3px 5px 3px ;
+  padding: 18px 15px 18px 15px;
+}
+
+.navbar-nav>li>a:hover{
+  border: 2px solid #ebc8ac;
+  color: #ebc8ac;
+  transition-duration: 1s;
+  background-color: white;
+  margin: 5px 3px 5px 3px ;
+  padding: 18px 15px 18px 15px;
+}
+
+
+
+/* /////////         carousel            //////////// */
+
+
+.fisrtcarsl > .item > img,
+.fisrtcarsl> .item > a > img {
+  width: 100%;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  max-height: 550px;
+}
+
+.fisrtcarsl> .item> .carousel-caption > h3{
+  font-size: 50px;
+  text-align: left;
+  position: relative;
+  top: -70px;
+  left: -170px;
+}
+
+.fisrtcarsl> .item> .carousel-caption > p{
+  font-size: 25px;
+  text-align: left;
+  position: relative;
+  top: -70px;
+  left: -170px;
+}
+
+.photos>.container{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  position: relative;
+  top: -40px;
+}
+
+.photos>.photocars>#myCarousel1>ol>li{
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 30px;
+  height: 10px;
+  background-color: white;
+}
+
+.photos>.photocars>#myCarousel1>ol>li.active{
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 30px;
+  height: 10px;
+  background-color: #f0c09a;
+}
+
+/* ///////////           second page is next       /////////// */
+
+.aboutus{
+  padding: 80px 30px;
+  background-color: rgb(250, 242, 242);
+  position: relative;
+  top: -40px;
+}
+
+.aboutus>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 6%;
+  position: relative;
+  left: 47%;
+}
+
+.aboutus>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 6%;
+  position: relative;
+  left: 47%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+
+
+/* ///////////           third page is next       /////////// */
+
+.thirdpage{
+  padding: 60px 30px;
+  position: relative;
+  top: -40px;
+  background-color: white;
+}
+
+.thirdpage>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 6%;
+  position: relative;
+  left: 47%;
+}
+
+.thirdpage>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 6%;
+  position: relative;
+  left: 47%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.thirdpage>.part5{
+  padding: 20px 5px;
+}
+
+.thirdpage>.part5>.col-sm-3{
+  padding: 3px 4px 30px 4px;
+}
+
+.thirdpage>.part5>.col-sm-3>img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  clear: right;
+}
+
+
+.thirdpage>.part5>.col-sm-3>h4{
+  clear: both;
+}
+
+
+
+
+/* ///////////           fourth page is next       /////////// */
+
+
+.fourthpage{
+  background-color: rgb(14, 13, 13);
+  color: white;
+  position: relative;
+  top:-40px;
+}
+
+.fourthpage>.col-sm-6{
+  padding: 115px 80px;
+}
+
+.fourthpage>.col-sm-6>h1>strong{
+  color: #ebc8ac;
+}
+
+.fourthpage>.col-sm-6>h4{
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.fourthpage>div>div>div>div>span{
+  color: #ebc8ac;
+  padding-top: 8px;
+  padding-left: 15px;
+}
+
+.fourthpage>.col-sm-6>.upbtn{
+  background-color: transparent;
+  color: white;
+  border: #ebc8ac 2px solid;
+  border-radius: 50px;
+  padding: 13px 100px;
+  margin-bottom: 30px;
+  margin-right: 40;
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.fourthpage>.col-sm-6>.downbtn{
+  background-color: transparent;
+  color: white;
+  border: #ebc8ac 2px solid;
+  border-radius: 50px;
+  padding: 13px 85px;
+  margin-bottom: 30px;
+  margin-right: 40;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.fourthpage>.col-sm-6>.centerbtn{
+  background-color: white;
+  color: black;
+  border: white 2px solid;
+  border-radius: 50px;
+  padding: 13px 80px;
+  margin-bottom: 30px;
+  margin-right: 5;
+  margin-left: 35px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+.fourthpage>.col-sm-6>.downbtn>i,
+.fourthpage>.col-sm-6>.upbtn>span,
+.fourthpage>.col-sm-6>.centerbtn>i{
+  color: #ebc8ac;
+}
+
+.fourthpage>.col-sm-6>.upbtn:hover{
+  margin-right:10px ;
+  margin-left:10px ;
+  transition-duration: 500ms;
+}
+
+.fourthpage>.col-sm-6>.downbtn:hover{
+  margin-right:10px ;
+  margin-left:10px ;
+  transition-duration: 500ms;
+}
+
+.fourthpage>.col-sm-6>.centerbtn:hover{
+  transition-duration: 500ms;
+  margin-right:-5px;
+  margin-left:45px ;
+}
+
+/* //////////// fifth page is next ///////////// */
+
+#Datebenefits{
+  background-color: rgb(250, 242, 242);
+}
+
+.fifthpage>.col-sm-4{
+  margin: 100px 0px;
+}
+
+.fifthpage>.col-sm-4>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 20%;
+  position: relative;
+  left: 40%;
+}
+
+.fifthpage>.col-sm-4>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+.fifthpage>.col-sm-8>.item{
+  color: black;
+}
+
+.sixitems>h1{
+  color: #ebc8ac;
+  font-size: 60px;
+  padding-top: 15px;
+}
+
+.carousel-indicators > .sixbtns{
+  background-color: white;
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  top: 130px;
+  left: -145px;
+  margin-right: 5px;
+  margin-bottom: 30px;
+} 
+
+.carousel-indicators > .active {
+  background-color: blanchedalmond ;
+  border-radius: 0px;
+  border: 1px solid black;
+  width: 30px;
+  height: 10px;
+}
+
+/* /////////////////////////// page six is next ///////////////////// */
+
+.sixthpage{
+  background-color: white;
+}
+
+.sixthpage>.col-sm-4{
+  margin-top: 40px;
+}
+
+.sixthpage>.col-sm-4>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 20%;
+  position: relative;
+  left: 40%;
+}
+
+.sixthpage>.col-sm-4>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 20%;
+  position: relative;
+  left: 40%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+
+.form-control{
+  border: 2px solid black;
+  border-radius: 0px;
+  resize: unset;
+  margin-top: 15px;
+}
+
+/*                                              coloring placeholder failed 
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+ color: black;
+}
+
+::-ms-input-placeholder {
+ color: black;
+}
+ */
+
+.form-group>button{
+  color:black;
+  background-color:#ebc8ac;
+  border-radius: 0px;
+}
+
+
+.form-group>button:hover{
+  background-color:black;
+  color: white;
+}
+
+
+
+/* /////////////////////// seventhpage is next ///////////////////////////// */
+
+
+.seventhpage{
+  margin-top: 55px;
+  margin-bottom: 50px;
+}
+
+
+.seventhpage>div>div>div>a{
+  color: black;
+}
+
+.seventhpage>div>div>div>p{
+  padding-right: 20px;
+}
+
+.seventhpage>div>div>div>strong{
+  float: left;
+  color: #f0c09a;
+}
+
+
+
+.seventhpage>div>div>div>i{
+  color: white;
+  background-color: black;
+  border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%;
+  padding: 5px;
+  float: left;
+  margin-right: 5px;
+  }
+
+.seventhpage>div>div>.info{
+  margin-bottom: 15px;
+}
+
+#infosid{
+  margin-top: 60px;
+}
+
+
+#googleMap{
+  border: 3px solid orange;
+}
+
+
+/* ////////////////////////// eighthpage is next ////////////////////// */
+
+
+.eighthpage{
+  background-image: url(../images/green-leafed-plants-1047285.jpg);
+  background-attachment: inherit;
+  height: 100%;
+}
+
+.eighthpage>.color-content{
+  background-color: rgba(0, 0, 0, 0.856);
+  color: white;
+}
+
+
+
+.eighthpage>.color-content>.container>.col-sm-6>div>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  margin-top: 60px;
+  width: 30%;
+  position: relative;
+  left: 0%;
+}
+
+.eighthpage>.color-content>.container>.col-sm-6>div>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 30%;
+  position: relative;
+  left: 0%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part1{
+  border-top: 4px solid #ebc8ac ;
+  border-left: 4px solid #ebc8ac ;
+  border-right: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  margin-top: 60px;
+  width: 45%;
+  position: relative;
+  left: 0%;
+}
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part4{
+  border-bottom: 4px solid #ebc8ac ;
+  padding-bottom: 5px;
+  width: 45%;
+  position: relative;
+  left: 0%;
+  clear: both;
+  padding-top: 8px;
+  margin-bottom: 10px;
+}
+
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part25>a{
+  color: white;
+  text-decoration-line: none;
+  margin-bottom: 10px;
+}
+
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part25>a:hover{
+  color: #f0c09a;
+  transition-duration: 800ms;
+}
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part35{
+  margin-bottom: 70px;
+}
+
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part35>div{
+  margin-bottom: 15px;
+}
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part35>div>a{
+  float: both;
+  color: white;
+}
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part35>div>a:hover{
+  float: both;
+  transition-duration: 800ms;
+  color: #f0c09a;
+  text-decoration-line: none;
+}
+
+.eighthpage>.color-content>.container>.col-sm-3>div>.part35>div>.spangroup{
+  float: both;  
+  color: #f0c09a;
+}
+
+
+/* ///////////////////////////// foooter is nexttttttt ////////////////////////////// */
+
+
+.footer{
+ background-color: black;
+ color: white;
+ padding: 30px 0px 20px 0px; 
+}
+
+
+.footer>footer>p>strong>a{
+  color: #f0c09a;
+}
+
+.footer>footer>p>strong>a:hover{
+  text-decoration-line: none;
+}
+
+.footer>footer>p>strong>span{
+  color: #f0c09a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
